@@ -1,11 +1,6 @@
 # AI Vision Service - Image Analysis with AI
 
 A production-ready AI-powered SaaS application that analyzes images using OpenAI's GPT-4 Vision API. Built with Next.js, FastAPI, and Clerk authentication, deployed on Vercel.
-
-**Assignment:** Applied Activity 1 - AIE1018  
-**Institution:** Cambrian College  
-**Semester:** Winter 2026
-
 ---
 
 ## 🎯 Overview
@@ -14,14 +9,14 @@ AI Vision Service allows users to upload images and receive detailed AI-generate
 
 ### Key Features
 
-✅ **AI-Powered Analysis** - OpenAI Vision API (gpt-4o-mini) for detailed image descriptions  
-✅ **User Authentication** - Clerk integration with Email, Google, and GitHub sign-in  
-✅ **Tiered Access Control** - Free (1 analysis) vs Premium (unlimited)  
-✅ **File Validation** - Supports JPG, PNG, WEBP up to 5MB  
-✅ **Real-time Usage Tracking** - Shows remaining analyses  
-✅ **Responsive Design** - Works on desktop, tablet, and mobile  
-✅ **Error Handling** - Comprehensive validation and user-friendly error messages  
-✅ **Production Deployment** - Serverless architecture on Vercel  
+**AI-Powered Analysis** - OpenAI Vision API (gpt-4o-mini) for detailed image descriptions  
+**User Authentication** - Clerk integration with Email, Google, and GitHub sign-in  
+**Tiered Access Control** - Free (1 analysis) vs Premium (unlimited)  
+**File Validation** - Supports JPG, PNG, WEBP up to 5MB  
+**Real-time Usage Tracking** - Shows remaining analyses  
+**Responsive Design** - Works on desktop, tablet, and mobile  
+**Error Handling** - Comprehensive validation and user-friendly error messages  
+**Production Deployment** - Serverless architecture on Vercel  
 
 ---
 
@@ -356,12 +351,12 @@ curl -X POST https://your-app.vercel.app/api/analyze \
 
 ## 🔐 Security Features
 
-✅ **Environment Variables** - All API keys stored securely, never in code  
-✅ **JWT Authentication** - Token-based auth with Clerk  
-✅ **Input Validation** - File type, size, and format checks  
-✅ **CORS Configuration** - Controlled cross-origin requests  
-✅ **Error Handling** - No sensitive data leaked in error messages  
-✅ **Rate Limiting** - Usage limits enforced per user  
+**Environment Variables** - All API keys stored securely, never in code  
+**JWT Authentication** - Token-based auth with Clerk  
+**Input Validation** - File type, size, and format checks  
+**CORS Configuration** - Controlled cross-origin requests  
+**Error Handling** - No sensitive data leaked in error messages  
+**Rate Limiting** - Usage limits enforced per user  
 
 ---
 
@@ -409,30 +404,30 @@ curl -X POST https://your-app.vercel.app/api/analyze \
 ### Manual Testing Checklist
 
 **Authentication:**
-- [ ] Sign in with Email
-- [ ] Sign in with Google
-- [ ] Sign in with GitHub
-- [ ] Sign out
-- [ ] Redirect to sign-in when not authenticated
+-  Sign in with Email
+-  Sign in with Google
+-  Sign in with GitHub
+-  Sign out
+-  Redirect to sign-in when not authenticated
 
 **File Upload:**
-- [ ] Upload valid JPG image
-- [ ] Upload valid PNG image
-- [ ] Upload valid WEBP image
-- [ ] Try uploading PDF (should fail)
-- [ ] Try uploading >5MB file (should fail)
+-  Upload valid JPG image
+-  Upload valid PNG image
+-  Upload valid WEBP image
+-  Try uploading PDF (should fail)
+-  Try uploading >5MB file (should fail)
 
 **Analysis:**
-- [ ] Analyze first image (free tier)
-- [ ] Try analyzing second image (should show limit reached)
-- [ ] Check usage counter updates
-- [ ] Verify AI description is relevant
+-  Analyze first image (free tier)
+-  Try analyzing second image (should show limit reached)
+-  Check usage counter updates
+-  Verify AI description is relevant
 
 **Error Handling:**
-- [ ] Test with no file selected
-- [ ] Test with invalid file type
-- [ ] Test with oversized file
-- [ ] Test network errors
+-  Test with no file selected
+-  Test with invalid file type
+-  Test with oversized file
+-  Test network errors
 
 ### Testing with curl
 
@@ -591,41 +586,6 @@ This project demonstrates:
 
 ---
 
-## 🤝 Contributing
-
-This is an educational project for AIE1018 at Cambrian College. While this is an individual assignment, you can:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request for review
-
-**Academic Integrity:** Ensure all submitted work is your own.
-
----
-
-## 📄 License
-
-This project is created for educational purposes as part of AIE1018 - AI Deployment and MLOps at Cambrian College.
-
----
-
-## 🙏 Acknowledgments
-
-- **Ed Donner** - Teaching methodology inspiration from [production AI course](https://github.com/ed-donner/production)
-- **Cambrian College** - AIE1018 course and assignment
-- **OpenAI** - Vision API for image analysis
-- **Clerk** - Authentication platform
-- **Vercel** - Deployment platform
-
----
-
-## 📞 Support
-
-**Instructor:** Reza Dibaj  
-**Email:** reza.dibaj@cambriancollege.ca  
-**Office Hours:** See syllabus
-
 **Resources:**
 - [FastAPI Documentation](https://fastapi.tiangolo.com/)
 - [OpenAI Vision API Docs](https://platform.openai.com/docs/guides/vision)
@@ -634,20 +594,3 @@ This project is created for educational purposes as part of AIE1018 - AI Deploym
 - [Next.js Documentation](https://nextjs.org/docs)
 
 ---
-
-## 🎯 Assignment Completion
-
-**Status:** ✅ Complete
-
-**Meets Requirements:**
-- [x] Part 1: Environment Setup (2 points)
-- [x] Part 2: Backend API Development (5 points)
-- [x] Part 3: Frontend Development (3 points)
-- [x] Part 4: Authentication & Authorization (3 points)
-- [x] Part 5: Deployment & Documentation (2 points)
-
-**Total:** 15/15 points
-
----
-
-**Built with ❤️ for AIE1018 - Cambrian College Winter 2026**
