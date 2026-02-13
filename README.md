@@ -1,6 +1,9 @@
 # AI Vision Service - Image Analysis with AI
 
 A production-ready AI-powered SaaS application that analyzes images using OpenAI's GPT-4 Vision API. Built with Next.js, FastAPI, and Clerk authentication, deployed on Vercel.
+[![Demo](https://img.shields.io/badge/demo-available-blue?style=flat-square)](https://saas-01-five.vercel.app)
+[![Live](https://img.shields.io/badge/status-live-success?style=flat-square)](https://saas-01-five.vercel.app)
+
 ---
 
 ## 🎯 Overview
